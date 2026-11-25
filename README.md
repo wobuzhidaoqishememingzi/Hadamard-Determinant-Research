@@ -52,7 +52,7 @@ We adapt the iterative **PatternBoost** loop to search for optimal $\{0, 1\}$-ma
 | 12 ($N=13$) | 3,645 | 1 | Barba ($2N-1=25=5^2$; achieved) | Yes (Local Search) |
 | 13 ($N=14$) | 9,477 | 1 | Ehlich–Wojtas ($2N-2=26=5^2+1^2$; achieved) | Yes (Local Search) |
 | 14 ($N=15$) | 25,515 | 1 | Ehlich ($N \equiv 3 \pmod 4$; unachievable) | Yes |
-| 15 ($N=16$) | 131,072 | 5 | Hadamard ($N \equiv 0 \pmod 4$; achieved) | Partial (3/5)* |
+| 15 ($N=16$) | 131,072 | 5 | Hadamard ($N \equiv 0 \pmod 4$; achieved) | Partial (3/5) |
 | 16 ($N=17$) | 327,680 | 3 | Barba ($2N-1=33$ not a square; unachievable) | No |
 | 17 ($N=18$) | 1,114,112 | 3 | Ehlich–Wojtas ($2N-2=34=5^2+3^2$; achieved) | No |
 | 18 ($N=19$) | 3,411,968 | 3 | Ehlich ($N \equiv 3 \pmod 4$; unachievable) | No |
@@ -60,8 +60,6 @@ We adapt the iterative **PatternBoost** loop to search for optimal $\{0, 1\}$-ma
 | 20 ($N=21$) | 56,640,625 | 7 | Barba ($2N-1=41$ not a square; unachievable) | No |
 | 21 ($N=22$) | 195,312,500 | 2 | Ehlich–Wojtas ($2N-2=42 \neq x^2+y^2$; unachievable) | No |
 | 22 ($N=23$) | 662,671,875 | 1 | Ehlich ($N \equiv 3 \pmod 4$; unachievable) | No |
-
-*\*Note: Check final run logs for $n=15$ (`Partial (3/5)` vs. full `5/5` recovery across 17 epochs).*
 
 ---
 
